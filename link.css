@@ -1,0 +1,54 @@
+
+
+#mySidenav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 10px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+#back {
+    top: 20px;
+    background-color: #555;
+
+}
+
+#home {
+    top: 80px;
+    background-color: #555;
+}
+
+#register {
+    top: 140px;
+    background-color: #555;
+display: inline-block;
+}
+
+#Events {
+    top: 200px;
+    background-color: #555;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    
+}
+
+
